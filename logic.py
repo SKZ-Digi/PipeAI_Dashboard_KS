@@ -1,19 +1,11 @@
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-from sklearn.utils import shuffle
 from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score, confusion_matrix
 import tensorflow as tf
 from anchor import anchor_tabular
-from lime import lime_tabular
-from sklearn.metrics import mean_squared_error
-import streamlit as st
 import shap
-import math
 from imblearn.over_sampling import SMOTE
-from collections import Counter
 from imblearn.over_sampling import RandomOverSampler
-import os
 import pickle
 from PIL import Image
 
@@ -107,9 +99,9 @@ def load_model(path):
 
 def rate_model(X_test,y_test, model):
 
-    import matplotlib.pyplot as plt
+
     from sklearn.metrics import plot_confusion_matrix
-    from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
+    from sklearn.metrics import confusion_matrix
     pred = model.predict(X_test)
     acc = accuracy_score(y_test, pred)
     f1 = f1_score(y_test, pred)

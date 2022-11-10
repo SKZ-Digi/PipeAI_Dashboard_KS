@@ -1,20 +1,9 @@
-import streamlit as st
-#st.set_page_config(layout="wide")
-import matplotlib.pyplot as plt
+
 import streamlit as st
 from PIL import Image
-import pandas as pd
-import numpy as np
-import sklearn
-from sklearn import datasets
-import seaborn as sns
 import logic
 import seaborn as sns
-import matplotlib as plt
-from lorem_text import lorem
 
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score
 
 def boxplot(X_train_new):
     import matplotlib.pyplot as plt
