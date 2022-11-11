@@ -41,7 +41,7 @@ combo==0.1.2
 configobj==5.0.6
 constantly==15.1.0
 contextlib2==21.6.0
-cupshelpers==1.0
+cupshelpers
 cvxopt==1.2.7
 cycler==0.10.0
 cymem==2.0.6
