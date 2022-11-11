@@ -38,7 +38,7 @@ colorama==0.4.4
 colorcet==2.0.6
 colour==0.1.5
 combo==0.1.2
-command-not-found==0.3
+command-not-found
 configobj==5.0.6
 constantly==15.1.0
 contextlib2==21.6.0
